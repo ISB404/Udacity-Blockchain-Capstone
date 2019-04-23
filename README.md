@@ -16,7 +16,10 @@ To install, download or clone the repo, then:
 `truffle compile`
 
 for test 
-`truffle compile test`
+
+`
+truffle compile test
+`
 
 ## Contract addresses
 
