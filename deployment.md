@@ -1,30 +1,30 @@
 2_deploy_contracts.js
 =====================
 
-   Replacing 'Verifier'
+   Deploying 'Verifier'
    --------------------
-   > transaction hash:    0x517e8f57f9e238b044accf26aba349a28be336fd327f55418e945c26ecc469c6
-   > Blocks: 0            Seconds: 5
-   > contract address:    0x6f2D034db2b44476b727DC9A30b2fBCB4A73F972
-   > block number:        4258566
-   > block timestamp:     1556007916
+   > transaction hash:    0x06f62219433c1c5150f956ba113fb9f131cc0b0f88e2be767ffbdda3436458f2
+   > Blocks: 1            Seconds: 9
+   > contract address:    0xeB8C18C1CA54e34bf49Cd6dC56351591c6fD2Cd1
+   > block number:        4259054
+   > block timestamp:     1556015236
    > account:             0x80FCA15f7cB18EA5fAF18456bA354F19286E09c3
-   > balance:             18.52035815
+   > balance:             18.445456006
    > gas used:            1783281
    > gas price:           10 gwei
    > value sent:          0 ETH
    > total cost:          0.01783281 ETH
 
 
-   Replacing 'SolnSquareVerifier'
+   Deploying 'SolnSquareVerifier'
    ------------------------------
-   > transaction hash:    0xe5f671a86b398a344f89e3cd8358e386dbb7066be163de83979cdb222b4d8f93
-   > Blocks: 1            Seconds: 25
-   > contract address:    0xA5A3DBd226c9178e4697c76056fae225a0480B98
-   > block number:        4258568
-   > block timestamp:     1556007946
+   > transaction hash:    0x059fa07205fdb25cb14e1f64b03f2f2e8963ea602e4052d0e76f1767c97931de
+   > Blocks: 2            Seconds: 25
+   > contract address:    0xf97Ab00166355a15F7fa4156fAa09dd16296e187
+   > block number:        4259056
+   > block timestamp:     1556015267
    > account:             0x80FCA15f7cB18EA5fAF18456bA354F19286E09c3
-   > balance:             18.47687273
+   > balance:             18.401970586
    > gas used:            4348542
    > gas price:           10 gwei
    > value sent:          0 ETH
