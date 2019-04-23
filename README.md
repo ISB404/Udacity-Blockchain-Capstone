@@ -15,7 +15,7 @@ To install, download or clone the repo, then:
 `npm install`
 `truffle compile`
 
-for test 
+## for test 
 
 `
 truffle compile test
@@ -33,7 +33,7 @@ truffle compile test
    > contract address:    0xd60cdCA9B28092fD20C9435fDB438b455f692e16
    
 ##  opensea Link
-> 
+> https://rinkeby.opensea.io/assets/capstonev3
    
  
 
