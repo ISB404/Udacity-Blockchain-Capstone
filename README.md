@@ -15,17 +15,24 @@ To install, download or clone the repo, then:
 `npm install`
 `truffle compile`
 
+for test 
+`truffle compile test`
+
 ## Contract addresses
 
-#'Verifier'
+### 'Verifier'
    --------------------
    > contract address:    0x24041d4043C8a1c880F707F6B7AC7dBD7923C45C
 
 
-#'SolnSquareVerifier'
+### 'SolnSquareVerifier'
    ------------------------------
    > contract address:    0xd60cdCA9B28092fD20C9435fDB438b455f692e16
-   >
+   
+##  opensea Link
+> 
+   
+ 
 
 # Project Resources
 
