@@ -50,7 +50,7 @@ module.exports = {
      },
      rinkeby: {
       provider: function() {
-       return new HDWalletProvider("cloth shallow negative scene benefit orbit shadow brief tilt illegal crunch hood", "https://rinkeby.infura.io/v3/907880a8e48442e796ec8f2e96ae57d4")
+       return new HDWalletProvider("<>", "https://rinkeby.infura.io/v3/907880a8e48442e796ec8f2e96ae57d4")
          },
           network_id: '4',
           gas: 5000000,
@@ -95,15 +95,15 @@ module.exports = {
   // Configure your compilers
   compilers: {
     solc: {
-      // version: "0.5.1",    // Fetch exact version from solc-bin (default: truffle's version)
-      // docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
-      // settings: {          // See the solidity docs for advice about optimization and evmVersion
-      //  optimizer: {
-      //    enabled: false,
-      //    runs: 200
-      //  },
-      //  evmVersion: "byzantium"
-      // }
+       version: "0.5.0",    // Fetch exact version from solc-bin (default: truffle's version)
+       docker: true,        // Use "0.5.1" you've installed locally with docker (default: false)
+       settings: {          // See the solidity docs for advice about optimization and evmVersion
+        optimizer: {
+          enabled: false,
+          runs: 200
+        },
+        evmVersion: "byzantium"
+       }
     }
   }
 }
