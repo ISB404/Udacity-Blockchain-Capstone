@@ -53,10 +53,10 @@ contract('SolnSquareVerifier', accounts => {
                 "input": [9, 1]
 
             }
-            let result = await this.contract.mintNFT.call(accounts[2], 5,CorrectProof.A, CorrectProof.A_p, CorrectProof.B, CorrectProof.B_p, CorrectProof.C, 
+            let tx = await this.contract.mintNFT(accounts[2], 5,CorrectProof.A, CorrectProof.A_p, CorrectProof.B, CorrectProof.B_p, CorrectProof.C, 
                 CorrectProof.C_p, CorrectProof.H, CorrectProof.K, CorrectProof.input);
-            //console.log('the result is: ' + result);
-            assert.notEqual(result, 0, "correct proof is not working");
+            //console.log(tx.logs[1].event);
+            assert.equal(tx.logs[1].event, 'Transfer', "correct proof is not working");
 
 
 
